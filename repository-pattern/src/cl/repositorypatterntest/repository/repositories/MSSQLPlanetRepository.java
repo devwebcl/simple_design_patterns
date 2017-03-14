@@ -10,7 +10,7 @@ public class MSSQLPlanetRepository implements IPlanetRepository {
 
 	   //region IPlanetRepository Members
 
-       public List<Planet> GetPlanets()  {
+       public List<Planet> getPlanets()  {
            // Simulate returning the list of data from the database.
            List<Planet> planetList = new ArrayList<Planet>();
 
@@ -28,7 +28,7 @@ public class MSSQLPlanetRepository implements IPlanetRepository {
            return planetList;
        }
 
-       public List<Planet> GetStars() {
+       public List<Planet> getStars() {
            // Simulate returning the list of data from the database.
            List<Planet> planetList = new ArrayList<Planet>();
 

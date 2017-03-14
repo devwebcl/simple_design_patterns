@@ -27,15 +27,15 @@ public class Program {
 
           // Load planets from the MSSQL repository.
           PlanetBusiness planetBusiness = new PlanetBusiness(new MSSQLPlanetRepository());
-          TestPlanets(planetBusiness);
+          testPlanets(planetBusiness);
 
           // Load planets from the Oracle repository.
           planetBusiness = new PlanetBusiness(new OracleRepository());
-          TestPlanets(planetBusiness);
+          testPlanets(planetBusiness);
 
           // Load planets from the Test repository.
           planetBusiness = new PlanetBusiness(new TestRepository());
-          TestPlanets(planetBusiness);
+          testPlanets(planetBusiness);
 
           /*  // Load planets from the default repository as specified in the web.config. Allows for changing the repository at run-time, without changing code!
           //TBC: similar to load values from a properties/yaml file with Spring. removing it for now...
@@ -49,24 +49,24 @@ public class Program {
           //Console.ReadKey();
       }
 
-      private static void TestPlanets(PlanetBusiness planetBusiness) {
+      private static void testPlanets(PlanetBusiness planetBusiness) {
           // Basic driver class to test our planet business class and display output.
           System.out.println();
           System.out.println("Planets:");
           System.out.println();
 
-          List<Planet> planetList = planetBusiness.GetPlanets();
+          List<Planet> planetList = planetBusiness.getPlanets();
           for (Planet planet : planetList) {
-        	  System.out.println(planet.PlanetId + ". " + planet.Name);
+        	  System.out.println(planet.planetId + ". " + planet.name);
           }
 
           System.out.println();
           System.out.println("Terraformable Planets:");
           System.out.println();
 
-          planetList = planetBusiness.GetTerraformPlanets();
+          planetList = planetBusiness.getTerraformPlanets();
           for (Planet planet : planetList) {
-        	  System.out.println(planet.PlanetId + ". " + planet.Name);
+        	  System.out.println(planet.planetId + ". " + planet.name);
           }
       }
 

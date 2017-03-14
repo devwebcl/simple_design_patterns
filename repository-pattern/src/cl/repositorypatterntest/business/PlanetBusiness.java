@@ -16,17 +16,17 @@ public class PlanetBusiness {
 		_repository = repository;
 	}
 
-	public List<Planet> GetPlanets() {
-		return _repository.GetPlanets();
+	public List<Planet> getPlanets() {
+		return _repository.getPlanets();
 	}
 
-	public List<Planet> GetStars() {
-		return _repository.GetStars();
+	public List<Planet> getStars() {
+		return _repository.getStars();
 	}
 
-	public List<Planet> GetTerraformPlanets() {
+	public List<Planet> getTerraformPlanets() {
 		// Return the list of filtered data from the database.
-		List<Planet> planetList = _repository.GetPlanets();
+		List<Planet> planetList = _repository.getPlanets();
 
 		/*
 		 * var results = from p in planetList
@@ -34,7 +34,7 @@ public class PlanetBusiness {
 		 * select p;
 		 */
 
-		List<Planet> results = planetList.stream().filter(p -> p.IsTerraform == true).collect(Collectors.toList());
+		List<Planet> results = planetList.stream().filter(p -> p.isTerraform == true).collect(Collectors.toList());
 
 		return results;
 	}

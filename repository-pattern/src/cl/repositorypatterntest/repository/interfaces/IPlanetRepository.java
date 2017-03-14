@@ -6,7 +6,7 @@ import cl.repositorypatterntest.types.Planet;
 
 public interface IPlanetRepository {
 
-	List<Planet> GetPlanets();
+	List<Planet> getPlanets();
 
-	List<Planet> GetStars();
+	List<Planet> getStars();
 }

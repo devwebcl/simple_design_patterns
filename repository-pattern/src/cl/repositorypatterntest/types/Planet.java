@@ -2,17 +2,17 @@ package cl.repositorypatterntest.types;
 
 public class Planet {
 
-	public int PlanetId;
-	public String Name;
-	public boolean IsTerraform;
+	public int planetId;
+	public String name;
+	public boolean isTerraform;
 
 	public Planet() {
 	}
 
 	public Planet(int planetId, String name, boolean isTerraform) {
-		PlanetId = planetId;
-		Name = name;
-		IsTerraform = isTerraform;
+		this.planetId = planetId;
+		this.name = name;
+		this.isTerraform = isTerraform;
 	}
 
 }

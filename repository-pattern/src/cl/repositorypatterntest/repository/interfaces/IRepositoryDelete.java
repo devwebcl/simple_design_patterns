@@ -4,6 +4,6 @@ package cl.repositorypatterntest.repository.interfaces;
 
 public interface IRepositoryDelete {
 
-	boolean Delete(Object obj);
+	boolean delete(Object obj);
 
 }
