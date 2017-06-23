@@ -2,5 +2,5 @@
 
 List of simple projects showing most popular Design Pattern impl.
 
-* [Repository Pattern](https://github.com/devwebcl/simple_design_patterns/tree/master/repository-pattern): example how to separt different repositories.
+* [Repository Pattern](https://github.com/devwebcl/simple_design_patterns/tree/master/repository-pattern): example how to separate different repositories.
 
