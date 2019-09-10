@@ -1,8 +1,8 @@
-package cl.repositorypatterntest.repository.interfaces;
+package cl.devweb.designpatterns.repository.interfaces;
 
 import java.util.List;
 
-import cl.repositorypatterntest.types.Planet;
+import cl.devweb.designpatterns.repository.types.Planet;
 
 public interface IPlanetRepository {
 

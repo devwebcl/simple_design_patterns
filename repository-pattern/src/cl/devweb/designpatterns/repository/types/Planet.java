@@ -1,4 +1,4 @@
-package cl.repositorypatterntest.types;
+package cl.devweb.designpatterns.repository.types;
 
 public class Planet {
 

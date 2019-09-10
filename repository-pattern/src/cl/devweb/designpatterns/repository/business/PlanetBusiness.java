@@ -1,10 +1,10 @@
-package cl.repositorypatterntest.business;
+package cl.devweb.designpatterns.repository.business;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-import cl.repositorypatterntest.repository.interfaces.IPlanetRepository;
-import cl.repositorypatterntest.types.Planet;
+import cl.devweb.designpatterns.repository.interfaces.IPlanetRepository;
+import cl.devweb.designpatterns.repository.types.Planet;
 
 // business layer
 

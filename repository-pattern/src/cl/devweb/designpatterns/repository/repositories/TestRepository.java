@@ -1,10 +1,10 @@
-package cl.repositorypatterntest.repository.repositories;
+package cl.devweb.designpatterns.repository.repositories;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import cl.repositorypatterntest.repository.interfaces.IPlanetRepository;
-import cl.repositorypatterntest.types.Planet;
+import cl.devweb.designpatterns.repository.interfaces.IPlanetRepository;
+import cl.devweb.designpatterns.repository.types.Planet;
 
 public class TestRepository implements IPlanetRepository {
 

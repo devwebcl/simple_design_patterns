@@ -1,4 +1,4 @@
-package cl.repositorypatterntest.repository.interfaces;
+package cl.devweb.designpatterns.repository.interfaces;
 
 // Not used ?
 

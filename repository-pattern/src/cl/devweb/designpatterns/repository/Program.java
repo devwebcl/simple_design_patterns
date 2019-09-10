@@ -1,13 +1,13 @@
-package cl.repositorypatterntest;
+package cl.devweb.designpatterns.repository;
 
 import java.util.List;
 
-import cl.repositorypatterntest.business.PlanetBusiness;
-import cl.repositorypatterntest.repository.interfaces.IPlanetRepository;
-import cl.repositorypatterntest.repository.repositories.MSSQLPlanetRepository;
-import cl.repositorypatterntest.repository.repositories.OracleRepository;
-import cl.repositorypatterntest.repository.repositories.TestRepository;
-import cl.repositorypatterntest.types.Planet;
+import cl.devweb.designpatterns.repository.business.PlanetBusiness;
+import cl.devweb.designpatterns.repository.interfaces.IPlanetRepository;
+import cl.devweb.designpatterns.repository.repositories.MSSQLPlanetRepository;
+import cl.devweb.designpatterns.repository.repositories.OracleRepository;
+import cl.devweb.designpatterns.repository.repositories.TestRepository;
+import cl.devweb.designpatterns.repository.types.Planet;
 
 /**
  * Java example from:
