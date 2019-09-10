@@ -34,3 +34,15 @@ Use the Visitor pattern when
 ## Credits
 
 * [Design Patterns: Elements of Reusable Object-Oriented Software](http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
+
+<hr>
+
+## UML Diagrams
+
+
+![alt text](./etc/visitor1.png "Visitor")
+
+<hr>
+
+![alt text](./etc/visitor2.png "Visitor")
+
